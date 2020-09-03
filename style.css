@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* if there is any padding...dont want to add padding to the actual width of the box*/
+}
+
+/*Main styling*/
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height-step: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    /*top and bottom 10px ....left and right 0px */
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #3498db;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1c7bbbf8;
+    color: #fff;
+}
+
+.btn-2 {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background: #1c7bbbf8;
+    color: #fff;
+}
+
+/* Navigation menu */
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+    /* shows Background  */
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    /* Organised  */
+    float: left;
+}
+
+#navbar ul li a {
+    /* Organised  */
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #1c7bbbf8;
+    color: #fff;
+
+}
+
+#navbar .logo {
+    max-width: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+#showcase {
+    background: url('/images/background.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size-adjust: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+}
+
+.prod {
+    max-width: 200px
+}
+
+/*products*/
+.box {
+    float: left;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #979494;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+
+
+}
+
+.about {
+    border: 1px solid #BFBFBF;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px;
+    min-height: 300px;
+}
+
+.padd {
+    padding: 30px 0;
+}
+
+#testimonials {
+    height: 100%;
+    background: url('/images/bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 40%;
+
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+    box-shadow: 0 1px 1px #cccccc;
+}
+
+#testimonials .testimonial p {
+    color: white;
+    margin-top: 30px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.box-2 {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box-2 i {
+    margin-bottom: 10px;
+}
+
+#home-info .info-content {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        float: none;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        margin: 5px;
+        border: 1px solid #979494;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+
+    #about-info .info-right,
+    #about-info .info-left {
+        float: none;
+        width: 100%;
+    }
+
+    #contact-info {
+        border-bottom: #444 dotted 1px;
+    }
+
+    #navbar .logo {
+        max-width: 100px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #navbar ul,
+    #navbar ul li {
+        float: none;
+    }
+
+    #navbar ul li a {
+        padding: 5px;
+        border-bottom: #444 dotted 1px;
+    }
+
+    .box-2 {
+        float: none;
+        width: 100%;
+    }
+}
